@@ -2,7 +2,7 @@
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.15/MicrosoftTeams.schema.json",
   "version": "1.0.0",
   "manifestVersion": "1.15",
-  "id": "8167a4a6-d14b-4b82-b6d6-ce0b35e8062f",
+  "id": "<MICROSOFT-APP-ID>",
   "packageName": "com.teams.azureai.bot",
   "name": {
     "short": "AzureAI Bot",
@@ -26,7 +26,7 @@
   "accentColor": "#FFFFFF",
   "bots": [
     {
-      "botId": "8167a4a6-d14b-4b82-b6d6-ce0b35e8062f",
+      "botId": "<MICROSOFT-APP-ID>",
       "scopes": [
         "team",
         "personal"

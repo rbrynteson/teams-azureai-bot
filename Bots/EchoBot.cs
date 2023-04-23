@@ -37,9 +37,7 @@ namespace EchoBot.Bots
                 max_tokens = 500,
             };
 
-            // Get Variables from Configuration File
-
-            // Create Users via JSON File
+            // Create Client
             var client = new RestClient(_configuration.GetValue<string>("AzureAI:RootUrl"));
 
             // Create a new request

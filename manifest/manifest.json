@@ -1,0 +1,49 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.15/MicrosoftTeams.schema.json",
+  "version": "1.0.0",
+  "manifestVersion": "1.15",
+  "id": "8167a4a6-d14b-4b82-b6d6-ce0b35e8062f",
+  "packageName": "com.teams.azureai.bot",
+  "name": {
+    "short": "AzureAI Bot",
+    "full": "AzureAI Bot"
+  },
+  "developer": {
+    "name": "Richard Brynteson",
+    "mpnId": "",
+    "websiteUrl": "https://theargylemvp.com",
+    "privacyUrl": "https://theargylemvp.com",
+    "termsOfUseUrl": "https://theargylemvp.com"
+  },
+  "description": {
+    "short": "AzureAI Bot",
+    "full": "AzureAI Bot for Microsoft Teams"
+  },
+  "icons": {
+    "outline": "outline.png",
+    "color": "color.png"
+  },
+  "accentColor": "#FFFFFF",
+  "bots": [
+    {
+      "botId": "8167a4a6-d14b-4b82-b6d6-ce0b35e8062f",
+      "scopes": [
+        "team",
+        "personal"
+      ],
+      "isNotificationOnly": false,
+      "supportsFiles": false
+    }
+  ],
+  "validDomains": [
+    "token.botframework.com",
+    "online.microsoftlogin.com",
+    "*.ngrok.io",
+    "*.azurewebsites.net"
+  ],
+  "defaultGroupCapability": {
+    "team": "bot",
+    "groupchat": "bot",
+    "meetings": "bot"
+  }
+}
